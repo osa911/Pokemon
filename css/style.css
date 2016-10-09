@@ -1,0 +1,99 @@
+h1{
+	text-align:center;
+	margin-top: 5px;
+}
+.itemBody{
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	width:217px;
+	text-align:center;
+	margin:5px;
+}
+.itemBody:focus{
+	box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+.itemImg{
+	width: 120px;
+	height: 120px;
+	padding-left: 35px;
+}
+.itemName{
+	font-weight: bold;
+	text-align:center;
+}
+
+.icon-types-pokemons{
+	display: inline-block;
+	height: 21px;
+	width: 51px;
+	background-image: url("../img/types.png");
+	background-position: -2px -3px, 0px 0px;
+}
+.poison{
+	background-position: 110px 83px, 0px 0px;
+}
+.water{
+	background-position: 57px -3px, 0px 0px;
+}
+.bug{
+	background-position: 110px 125px, 0px 0px;
+}
+.flying{
+	background-position: 163px 125px, 0px 0px;
+}
+.normal{
+	background-position: 57px 125px, 0px 0px;
+}
+.electric{
+	background-position: 163px -23px, 0px 0px;
+}
+.ground{
+	background-position: 110px 62px, 0px 0px;
+}
+.fire{
+	background-position: -53px -3px, 0px 0px;
+}
+
+.icon-left{
+	float: left;
+}
+.icon-right{
+	float: right;
+	
+}
+.icon{
+	height: 21px;
+}
+.text-left{
+	text-align: left; 
+}
+.text-right{
+	text-align: right;
+}
+
+
+.col-xs-10 {
+    width: 75.333333%;
+}
+.disableContent{
+	pointer-events:none;
+}
+#nowLoad{
+	position: fixed;
+	left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.95);
+    z-index: 9999;
+}
+.spinner {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-image: url('../img/loader.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -100px 0 0 -100px;
+}
